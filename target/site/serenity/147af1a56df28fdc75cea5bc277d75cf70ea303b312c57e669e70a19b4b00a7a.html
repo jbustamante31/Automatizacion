@@ -134,12 +134,12 @@
             });
 
             $('#evidence-table').DataTable(
-                {
-                    searching: false,
-                    ordering: false,
-                    paging: false,
-                    info: false
-                }
+                    {
+                        searching: false,
+                        ordering: false,
+                        paging: false,
+                        info: false
+                    }
             );
 
 
@@ -148,7 +148,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Registro Utest","type":"feature","href":"147af1a56df28fdc75cea5bc277d75cf70ea303b312c57e669e70a19b4b00a7a.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-times-circle failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Registro Utest","type":"feature","href":"147af1a56df28fdc75cea5bc277d75cf70ea303b312c57e669e70a19b4b00a7a.html","nodes":[],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -179,7 +179,7 @@
         <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
         <div id="projectname-banner" style="float:right">
             <span class="projectname">
-                <span class="projecttitle"></span>
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
                 <span class="projectsubtitle"></span>
             </span>
         </div>
@@ -195,7 +195,7 @@
 
 
 
-                    > <span class="truncate-40">Registro Utest</span>
+                > <span class="truncate-40">Registro Utest</span>
 
             </span>
         </div>
@@ -217,7 +217,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-10-2021 00:15</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-10-2021 21:45</span>
     <br style="clear:left"/>
 </div>
 
@@ -226,308 +226,328 @@
     <div id="beforetable"></div>
     <div id="results-dashboard">
         <div class="table">
-            <div class=row">
-                <div class="col-sm-12">
-                    <div>
-                        <div clas="table">
-                            <div class="row">
+                <div class=row">
+                    <div class="col-sm-12">
+                        <div>
+                            <div clas="table">
+                                <div class="row">
                                     <div class="col-sm-12">
-                                        <span>
+                                    <span>
                                             <h2><i class="fa fa-book"></i> Feature:  Registro Utest</h2>
                                         </span>
-                                    </div>
+                                </div>
+                                </div>
                                 </div>
                             </div>
-                        </div>
                             <div class="requirementNarrativeTitle">
                                 
                             </div>
 
+                        </div>
                     </div>
-                </div>
 
 
-                <div class="row">
-                    <div class="col-sm-12">
+            <div class="row">
+                <div class="col-sm-12">
 
-                        <!-- Requirements result tabs -->
-                        <ul class="nav nav-tabs">
-                            <li class="active">
-                                <a data-toggle="tab" href="#specs"><i class="fas fa-comments"></i> Specifications</a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#results"><i class="fas fa-tachometer-alt"></i> Test Results</a>
-                            </li>
-                        </ul>
+                    <!-- Requirements result tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a data-toggle="tab" href="#specs"><i class="fas fa-comments"></i> Specifications</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#results"><i class="fas fa-tachometer-alt"></i> Test Results</a>
+                        </li>
+                    </ul>
 
-                        <!-- Specifications and Results tabs -->
-                        <div class="card border">
-                            <div class="tab-content" id="pills-tabContent">
-                                <div id="specs" class="tab-pane fade in active">
-                                    <div class="container-fluid">
-                                        <div class="row">
-                                            <div class="col-sm-12">
-
-                                                    <!--- TOC --->
-                                                    <div id="toc">
-                                                        <h3>Overview</h3>
-                                                        <table class="table" id="toc-table">
-                                                                        <tr>
-                                                                            <td style="width:95%;" class="toc-title">
-                                                                                <span class="orphan-scenario-toc-entry">
-                                                                                    <a href="#45cc567127c32fe2a8a6fc9efee5c4e7bd646205f24e7f98e8b9b6648908b646" title="View scenario details">
-                                                                                        <i class="far fa-comment-dots"></i> Acceptance Test: Registro Exitoso Utest
-                                                                                    </a>
-                                                                                </span>
-                                                                            </td>
-                                                                            <td style="width:5%;">
-                                                                                <table>
-                                                                                    <tr>
-                                                                                        <td>
-                                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                               href="e9f2d9cb12c20b01b9eea0f92d0bfffc93ed1a3ea44c5d53785f4906b2466a3c.html"
-                                                                                               title="View test results">
-                                                                                                <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
-                                                                                                </a>
+                    <!-- Specifications and Results tabs -->
+                    <div class="card border">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div id="specs" class="tab-pane fade in active">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-sm-12">
 
 
-                                                                                        </td>
-                                                                                            <td>
-                                                                                                <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                                   href="e9f2d9cb12c20b01b9eea0f92d0bfffc93ed1a3ea44c5d53785f4906b2466a3c.html"
-                                                                                                   title="View test results">
-                                                                                                    <i class="fas fa-search-plus"></i>
-                                                                                                </a>
-                                                                                            </td>
-                                                                                    </tr>
-                                                                                </table>
-                                                                            </td>
-                                                                        </tr>
-                                                        </table>
-                                                    </div>
-                                                    <!--- END OF TOC --->
+                                            <h3>Scenarios</h3>
 
-                                                    <h3>Scenarios</h3>
+                                            <div id="toc">
+                                                <table class="table" id="toc-table">
+                                                        <tr>
+                                                            <td style="width:95%;" class="toc-title">
+                                                                <a href="#45cc567127c32fe2a8a6fc9efee5c4e7bd646205f24e7f98e8b9b6648908b646" title="View scenario details" >Registro exitoso utest</a>
+                                                                     (1 example)
 
-                                                        <a name="c8d6999b-ede3-4493-8362-255a6a214de1" ></a>
+                                                            </td>
+                                                            <td style="width:5%;">
+                                                                <table>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                               href="e9f2d9cb12c20b01b9eea0f92d0bfffc93ed1a3ea44c5d53785f4906b2466a3c.html"
+                                                                               title="View test results">
+                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                            </a>
 
+                                                                        
+                                                                        </td>
+                                                                        <td>
+                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                               href="e9f2d9cb12c20b01b9eea0f92d0bfffc93ed1a3ea44c5d53785f4906b2466a3c.html"
+                                                                               title="View test results">
+                                                                                <i class="fas fa-search-plus"></i>
+                                                                            </a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                </table>
 
-                                                            <div class="scenario-docs card" id="45cc567127c32fe2a8a6fc9efee5c4e7bd646205f24e7f98e8b9b6648908b646">
-                                                                <div class="scenario-docs card-header failure"
-                                                                     style="min-height:1.5em;">
-                                                                    <div>
+                                            </div>
+
+                                            <h3>Scenario details</h3>
+
+                                                <div class="scenario-docs card" id="45cc567127c32fe2a8a6fc9efee5c4e7bd646205f24e7f98e8b9b6648908b646">
+                                                    <div class="scenario-docs card-header success" style="min-height:1.5em;">
+                                                        <div>
                                                             <span class="scenario-heading">
-                                                                <a href="e9f2d9cb12c20b01b9eea0f92d0bfffc93ed1a3ea44c5d53785f4906b2466a3c.html"
-                                                                   title="View test results">Acceptance Test: Registro Exitoso Utest</a>
+                                                                <a href="e9f2d9cb12c20b01b9eea0f92d0bfffc93ed1a3ea44c5d53785f4906b2466a3c.html" title="View test results">Registro Exitoso Utest</a>
                                                             </span>
-                                                                        <span class="scenario-result-icon">
+                                                            <span class="scenario-result-icon">
                                                                 
 
-                                                                                <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                                                    <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                                             </span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="scenario-docs card-body">
-                                                                        <p>Dado Selecciono la opcion Registrar</p>
-                                                                        <p>Cuando Ingreso los datos en el formulario de registro</p>
-                                                                        <p>Entonces valido el registro exitoso</p>
-                                                                    <div class="examples">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="scenario-docs card-body">
+                                                            <p>Dado que actor quiere registrarse en uTest</p>
+                                                            <p><p>Cuando Ingreso los datos en el formulario de registro</p>
+<table>
+<thead>
+<tr><th>nombre</th><th>apellido</th><th>correo</th><th>fechaNaciMes</th><th>fechaNaciDia</th><th>fechaNaciAnio</th><th>idioma</th><th>ciudad</th><th>codigoPostal</th><th>pais</th><th>movil</th><th>modelo</th><th>sOMovil</th><th>contrasena</th></tr>
+</thead>
+<tbody>
+<tr><td>{nombre}</td><td>{apellido}</td><td>{correo}</td><td>{fechaNaciMes}</td><td>{fechaNaciDia}</td><td>{fechaNaciAnio}</td><td>{idioma}</td><td>{ciudad}</td><td>{codigoPostal}</td><td>{pais}</td><td>{movil}</td><td>{modelo}</td><td>{sOMovil}</td><td>{contrasena}</td></tr>
+</tbody>
+</table>
+</p>
+                                                            <p><p>Entonces valido el registro exitoso</p>
+<table>
+<thead>
+<tr><th>valorEsperado</th></tr>
+</thead>
+<tbody>
+<tr><td>{valorEsperado}</td></tr>
+</tbody>
+</table>
+</p>
+                                                        <div class="examples">
+                                                            <p><p>Examples:</p>
+<div class='example-table-in-scenario'><table>
+<thead>
+<tr><th>nombre</th><th>apellido</th><th>correo</th><th>fechaNaciMes</th><th>fechaNaciDia</th><th>fechaNaciAnio</th><th>idioma</th><th>ciudad</th><th>codigoPostal</th><th>pais</th><th>movil</th><th>modelo</th><th>sOMovil</th><th>contrasena</th><th>valorEsperado</th><th></th></tr>
+</thead>
+<tbody>
+<tr><td>Junior</td><td>Bustamante De la Ossa</td><td>email@gmail.com</td><td>January</td><td>14</td><td>1988</td><td>Spanish</td><td>MEDELLIN</td><td>054448</td><td>Colombia</td><td>Huawei</td><td>Y9</td><td>Android 10</td><td>Junior_1234</td><td>We are excited that you have found your way to uTest</td><td> </td></tr>
+</tbody>
+</table></div>
+</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div id="results" class="tab-pane fade">
-                                    <div class="container-fluid">
-                                        <div class="row">
-                                            <div class="col-sm-4">
+                            <div id="results" class="tab-pane fade">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-sm-4">
 
-                                                <div style="width:300px;" class="chart-container automated-and-manual-results">
-                                                    <div class="ct-chart ct-square"></div>
-                                                </div>
-                                                <script>
-
-                                                    var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' ', ' ', ' '];
-                                                    // Our series array that contains series objects or in this case series data arrays
-
-                                                    var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 1}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
-
-                                                    // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
-                                                    // as you saw in the previous example
-                                                    var options = {
-                                                        width: 350,
-                                                        height: 300
-                                                    };
-
-                                                    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                                                        new Chartist.Pie('.ct-chart', {
-                                                            series: series,
-                                                            labels: labels,
-                                                        }, {
-                                                            donut: true,
-                                                            donutWidth: 60,
-                                                            donutSolid: true,
-                                                            startAngle: 270,
-                                                            showLabel: true
-                                                        }, options);
-                                                    });
-
-                                                </script>
+                                            <div style="width:300px;" class="chart-container automated-and-manual-results">
+                                                <div class="ct-chart ct-square"></div>
                                             </div>
-                                            <div class="col-sm-8">
+                                            <script>
 
-                                                    <table class="table">
-                                                        <thead>
-                                                        <tr>
-                                                            <th scope="col">Scenario Results (including rows of test
-                                                                data)
-                                                            </th>
-                                                            <th scope="col" colspan="2" class="automated-stats">
-                                                                Automated
-                                                            </th>
-                                                        </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                        <tr>
-                                                                <td class="aggregate-result-count"><i
-                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
-                                                                </td>
-                                                            <td class="automated-stats">0</td>
-                                                            <td class="automated-stats"> </td>
-                                                        </tr>
-                                                        <tr>
-                                                                <td class="aggregate-result-count"><i
-                                                                            class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending
-                                                                </td>
-                                                            <td class="automated-stats">0</td>
-                                                            <td class="automated-stats"> </td>
-                                                        </tr>
-                                                        <tr>
-                                                                <td class="aggregate-result-count"><i
-                                                                            class='fa fa-ban ignored-icon'></i>&nbsp;Ignored
-                                                                </td>
-                                                            <td class="automated-stats">0</td>
-                                                            <td class="automated-stats"> </td>
-                                                        </tr>
-                                                        <tr>
-                                                                <td class="aggregate-result-count"><i
-                                                                            class='fa fa-fast-forward skip-icon'></i>&nbsp;Skipped
-                                                                </td>
-                                                            <td class="automated-stats">0</td>
-                                                            <td class="automated-stats"> </td>
-                                                        </tr>
-                                                        <tr>
-                                                                    <td colspan="3"><a href="0d7adac0a207cd6c69a910685df9e2659b81f488269ceb9f6b96d3c440bda11b.html"><i
-                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                // Our series array that contains series objects or in this case series data arrays
+
+                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+
+                                                // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
+                                                // as you saw in the previous example
+                                                var options = {
+                                                    width: 350,
+                                                    height: 300
+                                                };
+
+                                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                                                    new Chartist.Pie('.ct-chart', {
+                                                        series: series,
+                                                        labels: labels,
+                                                    }, {
+                                                        donut: true,
+                                                        donutWidth: 60,
+                                                        donutSolid: true,
+                                                        startAngle: 270,
+                                                        showLabel: true
+                                                    }, options);
+                                                });
+
+                                            </script>
+                                        </div>
+                                        <div class="col-sm-8">
+
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col">Scenario Results (including rows of test data)</th>
+                                                <th scope="col" colspan="2" class="automated-stats">
+                                                    Automated
+                                                </th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                                    <td class="aggregate-result-count">
+                                                                        <a href="28bf03b5b7c7ef17c13f25fa9bbf14d337d0552468b1775e732e42cabd05d6cb.html"><i
+                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-
-                                                        </tr>
-
-                                                        <tr>
-                                                                <td class="aggregate-result-count indented-error-category">
-                                                                    <a href="c0257ce00b020ab846a88cffeb6bc12bf9589272e841be5695d635353f1ae6e3.html"><i
-                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
+                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">100%</td>
+                                            </tr>
+                                            <tr>
+                                                                    <td class="aggregate-result-count"><i
+                                                                            class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending
+                                                                    </td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
+                                            </tr>
+                                            <tr>
+                                                                <td class="aggregate-result-count"><i
+                                                                        class='fa fa-ban ignored-icon'></i>&nbsp;Ignored
                                                                 </td>
-                                                            <td class="automated-stats">1</td>
-                                                            <td class="automated-stats">100%</td>
-                                                        <tr>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
+                                            </tr>
+                                            <tr>
+                                                                <td class="aggregate-result-count"><i
+                                                                        class='fa fa-fast-forward skip-icon'></i>&nbsp;Skipped
+                                                                </td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
+                                            </tr>
+                                            <tr>
+                                                                            <td colspan="3"><i
+                                                                                class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                            </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                                <td class="aggregate-result-count indented-error-category">
+                                                                    <i
+                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
+                                                                </td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
+                                            <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
                                                                             class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken
                                                                 </td>
-                                                            <td class="automated-stats">0</td>
-                                                            <td class="automated-stats"> </td>
-                                                        <tr>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
+                                            <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
                                                                             class='fa fa-chain-broken compromised-icon'></i>&nbsp;Compromised
                                                                 </td>
-                                                            <td class="automated-stats">0</td>
-                                                            <td class="automated-stats"> </td>
-                                                        </tr>
-                                                        <tr class="summary-stats">
-                                                            <td class="aggregate-result-count">Total</td>
-                                                            <td class="automated-stats">1</td>
-                                                            <td class="automated-stats"></td>
-                                                        </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
+                                            </tr>
+                                            <tr class="summary-stats">
+                                                <td class="aggregate-result-count">Total</td>
+                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats"></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    </div>
+
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <table class="table">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>Execution Time</th>
+                                                        <th>Clock Time</th>
+                                                        <th>Fastest Test</th>
+                                                        <th>Slowest Test</th>
+                                                        <th>Average Execution Time</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td> 1m 24s</td>
+                                                        <td>84ms</td>
+                                                        <td> 1m 23s</td>
+                                                        <td> 1m 23s</td>
+                                                        <td> 1m 24s</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
                                             </div>
-
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <table class="table">
-                                                        <thead>
-                                                        <tr>
-                                                            <th>Execution Time</th>
-                                                            <th>Clock Time</th>
-                                                            <th>Fastest Test</th>
-                                                            <th>Slowest Test</th>
-                                                            <th>Average Execution Time</th>
-                                                        </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                        <tr>
-                                                            <td>37s</td>
-                                                            <td>37ms</td>
-                                                            <td>37s</td>
-                                                            <td>37s</td>
-                                                            <td>37s</td>
-                                                        </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <h3><i class="fas fa-cogs"></i> Automated Tests</h3>
-
-                                                        <table class="scenario-result-table table"
-                                                               id="scenario-results">
-                                                            <thead>
-                                                            <tr>
-                                                                <th class="test-name-column">Scenario</th>
-                                                                <th>Steps</th>
-                                                                <th>Start Time</th>
-                                                                <th>Duration</th>
-                                                                <th>Result</th>
-                                                            </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr class="scenario-result FAILURE">
-                                                                    <td>
-                                                                            <a href="e9f2d9cb12c20b01b9eea0f92d0bfffc93ed1a3ea44c5d53785f4906b2466a3c.html">Registro Exitoso Utest</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>00:15:12</td>
-                                                                    <td>37s 180ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <h3><i class="fas fa-edit"></i> Manual Tests</h3>
-
-                                                        No manual tests were recorded
-
-                                                </div>
-                                            </div>
-
                                         </div>
+
+
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <h3><i class="fas fa-cogs"></i> Automated Tests</h3>
+
+                                            <table class="scenario-result-table table" id="scenario-results">
+                                                <thead>
+                                                <tr>
+                                                    <th class="test-name-column">Scenario</th>
+                                                    <th>Steps</th>
+                                                    <th>Start Time</th>
+                                                    <th>Duration</th>
+                                                    <th>Result</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="e9f2d9cb12c20b01b9eea0f92d0bfffc93ed1a3ea44c5d53785f4906b2466a3c.html">Registro Exitoso Utest</a>
+                                                               (1 example)
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>21:45:28</td>
+                                                    <td>1m 24s</td>
+                                                    <td>
+                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <h3><i class="fas fa-edit"></i> Manual Tests</h3>
+
+                                                No manual tests were recorded
+
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -535,10 +555,11 @@
                     </div>
                 </div>
             </div>
+        </div>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12">
-                        <span class="version">Serenity BDD version 2.4.24</span>
+                        <span class="version">Serenity BDD version 2.2.1</span>
                     </div>
                 </div>
             </div>

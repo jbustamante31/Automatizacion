@@ -5,16 +5,16 @@ import net.serenitybdd.screenplay.Question;
 
 import static com.co.jbustamante.ui.FormularioRegistroPage.LABEL_WELCOME;
 
-public class Answer implements Question<Boolean> {
+public class RegistroExitosoQuestion implements Question<Boolean> {
     private String question;
 
-    public Answer(String question){
+    public RegistroExitosoQuestion(String question){
         this.question = question;
     }
 
     public static Question<Boolean> toThe(String question) {
 
-        return new Answer(question);
+        return new RegistroExitosoQuestion(question);
     }
 
     @Override

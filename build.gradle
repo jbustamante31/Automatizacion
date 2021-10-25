@@ -16,7 +16,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:2.4.24")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.2.1")
     }
 }
 
@@ -30,10 +30,10 @@ targetCompatibility = 11
 
 dependencies {
 
-    implementation 'net.serenity-bdd:serenity-core:2.6.0'
-    implementation 'net.serenity-bdd:serenity-cucumber6:2.6.0'
-    implementation 'net.serenity-bdd:serenity-screenplay:2.6.0'
-    implementation 'net.serenity-bdd:serenity-screenplay-webdriver:2.6.0'
+    implementation 'net.serenity-bdd:serenity-core:2.0.70'
+    implementation 'net.serenity-bdd:serenity-cucumber:1.9.45'
+    implementation 'net.serenity-bdd:serenity-screenplay:2.0.70'
+    implementation 'net.serenity-bdd:serenity-screenplay-webdriver:2.0.70'
     implementation 'junit:junit:4.13.1'
 }
 
