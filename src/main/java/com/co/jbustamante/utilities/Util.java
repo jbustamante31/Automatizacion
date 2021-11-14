@@ -1,6 +1,10 @@
 package com.co.jbustamante.utilities;
 
+import net.serenitybdd.screenplay.Actor;
+
 import java.util.Random;
+
+import static com.co.jbustamante.ui.FormularioRegistroPage.LABEL_PHONE;
 
 public class Util {
 
@@ -12,6 +16,8 @@ public class Util {
         int intAletorio = aleatorio.nextInt(10000);
         return String.valueOf(intAletorio);
     }
+
+
 
 // Más código
 }

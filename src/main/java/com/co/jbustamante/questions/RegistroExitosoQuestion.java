@@ -12,7 +12,7 @@ public class RegistroExitosoQuestion implements Question<Boolean> {
         this.question = question;
     }
 
-    public static Question<Boolean> toThe(String question) {
+    public static Question<Boolean> conLosDatos(String question) {
 
         return new RegistroExitosoQuestion(question);
     }

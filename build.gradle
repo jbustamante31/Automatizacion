@@ -1,14 +1,14 @@
 
-
-group 'com.co.jbustamante'
+group 'co.com.jbustamante'
 version '1.0-SNAPSHOT'
 
-defaultTasks 'clean', 'test', 'aggregate'
-
 repositories {
+
     mavenLocal()
     jcenter()
 }
+defaultTasks 'clean', 'test', 'aggregate'
+
 
 buildscript {
     repositories {

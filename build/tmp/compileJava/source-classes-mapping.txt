@@ -1,24 +1,12 @@
-com/co/jbustamante/questions/RegistroExitosoQuestion.java
- com.co.jbustamante.questions.RegistroExitosoQuestion
-com/co/jbustamante/utilities/Util.java
- com.co.jbustamante.utilities.Util
-com/co/jbustamante/ui/HomePage.java
- com.co.jbustamante.ui.HomePage
-com/co/jbustamante/tasks/SeleccionarOpcionRegistro.java
- com.co.jbustamante.tasks.SeleccionarOpcionRegistro
-com/co/jbustamante/tasks/AbrirNavegador.java
- com.co.jbustamante.tasks.AbrirNavegador
-com/co/jbustamante/ui/FormularioRegistroPage.java
- com.co.jbustamante.ui.FormularioRegistroPage
+com/co/jbustamante/questions/CapturaTelefono.java
+ com.co.jbustamante.questions.CapturaTelefono
 com/co/jbustamante/model/DatosRegistro.java
  com.co.jbustamante.model.DatosRegistro
-com/co/jbustamante/interations/LlenarContrasena.java
- com.co.jbustamante.interations.LlenarContrasena
-com/co/jbustamante/interations/LlenarDatosDispositivos.java
- com.co.jbustamante.interations.LlenarDatosDispositivos
-com/co/jbustamante/interations/LlenarDatosPersonales.java
- com.co.jbustamante.interations.LlenarDatosPersonales
-com/co/jbustamante/interations/LlenarDatosUbicacion.java
- com.co.jbustamante.interations.LlenarDatosUbicacion
-com/co/jbustamante/tasks/DiligenciarFormulario.java
- com.co.jbustamante.tasks.DiligenciarFormulario
+com/co/jbustamante/exceptions/RegistroException.java
+ com.co.jbustamante.exceptions.RegistroException
+com/co/jbustamante/ui/FormularioRegistroPage.java
+ com.co.jbustamante.ui.FormularioRegistroPage
+com/co/jbustamante/tasks/AbrirNavegador.java
+ com.co.jbustamante.tasks.AbrirNavegador
+com/co/jbustamante/questions/RegistroExitosoQuestion.java
+ com.co.jbustamante.questions.RegistroExitosoQuestion

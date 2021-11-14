@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Prueba técnica – Automatización" skipped="0" tests="1" time="17.83" timestamp="2021-11-13 06:41:07"><testcase name="Manejo de selenium"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.co.jbustamante.utilities.Util.CapturaT(Util.java:25)&#13;
+com.co.jbustamante.stepdefinitions.MensajeMakersStep.capturar_el_numero_de_celular_de_servicio_al_cliente(MensajeMakersStep.java:49)&#13;
+✽.capturar el numero de celular de servicio al cliente(src/test/resources/features/mensaje_makers.feature:8)&#13;
+</system-err></testcase></testsuite>
