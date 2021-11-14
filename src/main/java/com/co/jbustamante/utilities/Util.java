@@ -13,11 +13,9 @@ public class Util {
 
         Random aleatorio = new Random(System.currentTimeMillis());
 
-        int intAletorio = aleatorio.nextInt(10000);
+        int intAletorio = aleatorio.nextInt(20000);
         return String.valueOf(intAletorio);
     }
 
 
-
-// Más código
 }

@@ -101,7 +101,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-11-2021 18:41</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-11-2021 20:25</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -134,9 +134,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="error-color">
+                                <span class="failing-color">
                                     Manejo de selenium
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -221,25 +221,29 @@
                             <th>Correo</th>
                             <th>Captura</th>
                             <th>Mensaje</th>
+                            <th>Valoresperado</th>
                     </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="test-ERROR"><a href="#0">1</a></td>
-                                <td class="test-ERROR"><a
+                            <td class="test-FAILURE"><a href="#0">1</a></td>
+                                <td class="test-FAILURE"><a
                                             href="#0">Junior</a>
                                 </td>
-                                <td class="test-ERROR"><a
+                                <td class="test-FAILURE"><a
                                             href="#0">Bustamante De la Ossa</a>
                                 </td>
-                                <td class="test-ERROR"><a
+                                <td class="test-FAILURE"><a
                                             href="#0">correo@gmail.com</a>
                                 </td>
-                                <td class="test-ERROR"><a
-                                            href="#0"></a>
+                                <td class="test-FAILURE"><a
+                                            href="#0">315369614</a>
                                 </td>
-                                <td class="test-ERROR"><a
+                                <td class="test-FAILURE"><a
                                             href="#0">Estoy interesad0</a>
+                                </td>
+                                <td class="test-FAILURE"><a
+                                            href="#0">Mensaje enviado</a>
                                 </td>
                         </tr>
                     </tbody>
@@ -263,12 +267,12 @@
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-ERROR">
+                <tr class="test-FAILURE">
                     <td width="50" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 error-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 failure-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -277,31 +281,31 @@
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
                                 <span class="top-level-step">
-                                Example: {nombre=Junior, apellido=Bustamante De la Ossa, correo=correo@gmail.com, captura=, mensaje=Estoy interesad0}
+                                Example: {nombre=Junior, apellido=Bustamante De la Ossa, correo=correo@gmail.com, captura=315369614, mensaje=Estoy interesad0, valorEsperado=Mensaje enviado}
                             </span>
                             </a>
                             <span class="evidence">
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="ERROR-text">
+                        <td width="160" class="FAILURE-text">
                                 <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=0">
-                                    <img src="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png"
-                                         href="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png"
+                                    <img src="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png"
+                                         href="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                                 <i class="fas fa-arrow-right"></i>
 
-                                <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=11">
-                                    <img src="f97765e1915ad942cb6c9a9a041c4bd6a6b14c6afe84f633f5ed634d8ebf4551.png"
-                                         href="f97765e1915ad942cb6c9a9a041c4bd6a6b14c6afe84f633f5ed634d8ebf4551.png"
+                                <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=21">
+                                    <img src="a048abd027b1a9dab3e9e6ff3a634017c2b4dfa817977baba303bfa00c710062.png"
+                                         href="a048abd027b1a9dab3e9e6ff3a634017c2b4dfa817977baba303bfa00c710062.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">16.91s</span></td>
+                    <td width="100"><span class="top-level-step">FAILURE</span></td>
+                    <td width="100"><span class="top-level-step">18.08s</span></td>
                 </tr>
                 <tr>
                     <td colspan="5">
@@ -331,14 +335,14 @@
                         <td width="160" class="SUCCESS-text">
 
                                 <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=5">
-                                    <img src="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png"
-                                         href="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png"
+                                    <img src="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png"
+                                         href="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">14.15s</span></td>
+                    <td width="100"><span class="nested-step">11.57s</span></td>
                 </tr>
                 <tr>
                     <td colspan="5">
@@ -368,14 +372,14 @@
                         <td width="160" class="SUCCESS-text">
 
                                 <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=4">
-                                    <img src="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png"
-                                         href="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png"
+                                    <img src="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png"
+                                         href="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">13.6s</span></td>
+                    <td width="100"><span class="nested-step">11.14s</span></td>
                 </tr>
                 <tr>
                     <td colspan="5">
@@ -399,14 +403,14 @@
                         <td width="160" class="SUCCESS-text">
 
                                 <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=3">
-                                    <img src="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png"
-                                         href="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png"
+                                    <img src="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png"
+                                         href="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">13.56s</span></td>
+                    <td width="100"><span class="nested-group-step">11.08s</span></td>
                 </tr>
 
                         </table>
@@ -447,7 +451,7 @@
                                 </a>
                         </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">2.44s</span></td>
+                    <td width="100"><span class="nested-step">2.62s</span></td>
                 </tr>
                 <tr>
                     <td colspan="5">
@@ -484,7 +488,7 @@
                                 </a>
                         </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">2.43s</span></td>
+                    <td width="100"><span class="nested-step">2.6s</span></td>
                 </tr>
                 <tr>
                     <td colspan="5">
@@ -499,7 +503,7 @@
                     <td>
                         <div class="step-description">
                                 <span class="nested-group-step">
-                                "https://somosmakers.co/" clicks on Boton Registro Join
+                                "https://somosmakers.co/" clicks on Boton
                             </span>
                             <span class="evidence">
                             </span>
@@ -515,7 +519,7 @@
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">2.41s</span></td>
+                    <td width="100"><span class="nested-group-step">2.57s</span></td>
                 </tr>
 
                         </table>
@@ -525,11 +529,11 @@
                         </table>
                     </td>
                 <tr>
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
                     <td width="50" class="step-icon">
                         <a name="0-2"/>
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -540,19 +544,293 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="ERROR-text">
+                        <td width="160" class="SUCCESS-text">
 
                                 <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=11">
-                                    <img src="f97765e1915ad942cb6c9a9a041c4bd6a6b14c6afe84f633f5ed634d8ebf4551.png"
-                                         href="f97765e1915ad942cb6c9a9a041c4bd6a6b14c6afe84f633f5ed634d8ebf4551.png"
+                                    <img src="a38dbf59b278980864813c213402577389138a7996e79e90f6873f5308b8947f.png"
+                                         href="a38dbf59b278980864813c213402577389138a7996e79e90f6873f5308b8947f.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="nested-group-step">ERROR</span></td>
-                    <td width="100"><span class="nested-group-step">0.24s</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.01s</span></td>
                 </tr>
-                    <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0-3"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-3')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection0-3 success-icon"
+                                   style="margin-left: 40px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-3')"
+                               style="display:block;">
+                                <span class="nested-step">
+                                Y llenar el formulario "dejanos un mensaje" y en el campo mensaje adjuntar el numero de celular capturado<br><table class='embedded'><thead><th>nombre</th><th>apellido</th><th>correo</th><th>captura</th><th>mensaje</th></thead><tbody><tr><td>Junior</td><td>Bustamante De la Ossa</td><td>correo@gmail.com</td><td>315369614</td><td>Estoy interesad0</td></tr></tbody></table>
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+                                <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=12">
+                                    <img src="90bb3a03d963b6f95f12b705f9a02428fa08afe7d99da74a9b5e8457624847ae.png"
+                                         href="90bb3a03d963b6f95f12b705f9a02428fa08afe7d99da74a9b5e8457624847ae.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                                <i class="fas fa-arrow-right"></i>
+
+                                <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=19">
+                                    <img src="b1fac51773ee7c6696031e30ff5af3fd5aa9f3e897687862918ef2ff4f410e72.png"
+                                         href="b1fac51773ee7c6696031e30ff5af3fd5aa9f3e897687862918ef2ff4f410e72.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">3.27s</span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection0-3" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0-3-0"/>
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                "https://somosmakers.co/" enters 'Junior' into Input Name
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=13">
+                                    <img src="90bb3a03d963b6f95f12b705f9a02428fa08afe7d99da74a9b5e8457624847ae.png"
+                                         href="90bb3a03d963b6f95f12b705f9a02428fa08afe7d99da74a9b5e8457624847ae.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.58s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0-3-1"/>
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                "https://somosmakers.co/" enters 'Bustamante De la Ossa' into Input Last Name
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=14">
+                                    <img src="3be1a5ee8afa97c635c354aad3e65853878f5cae62b2ea8a9fe252832780f3cc.png"
+                                         href="3be1a5ee8afa97c635c354aad3e65853878f5cae62b2ea8a9fe252832780f3cc.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.63s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0-3-2"/>
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                "https://somosmakers.co/" enters '5412correo@gmail.com' into Input Email
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=15">
+                                    <img src="dba62069269ce94102e3212c3a3d15c078cc8af8cf567a958ddae073ede3eb2f.png"
+                                         href="dba62069269ce94102e3212c3a3d15c078cc8af8cf567a958ddae073ede3eb2f.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.59s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0-3-3"/>
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                "https://somosmakers.co/" enters '315369614' into Input Phone
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=16">
+                                    <img src="19103f5a797e4d82321d678ce0bfff0a85958f6ac8409ca4eedf6704a9b44d52.png"
+                                         href="19103f5a797e4d82321d678ce0bfff0a85958f6ac8409ca4eedf6704a9b44d52.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.45s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0-3-4"/>
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                "https://somosmakers.co/" enters 'Estoy interesad0' into Input Message
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=17">
+                                    <img src="bd56032d14e68522ae164754a7c450d64973822c86f1593f154a76d094e463b1.png"
+                                         href="bd56032d14e68522ae164754a7c450d64973822c86f1593f154a76d094e463b1.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.43s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0-3-5"/>
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                "https://somosmakers.co/" clicks on Button Send Message
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=18">
+                                    <img src="b1fac51773ee7c6696031e30ff5af3fd5aa9f3e897687862918ef2ff4f410e72.png"
+                                         href="b1fac51773ee7c6696031e30ff5af3fd5aa9f3e897687862918ef2ff4f410e72.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.42s</span></td>
+                </tr>
+
+                        </table>
+                    </td>
+                <tr>
+                <tr class="test-FAILURE">
+                    <td width="50" class="step-icon">
+                        <a name="0-4"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-4')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection0-4 failure-icon"
+                                   style="margin-left: 40px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-4')"
+                               style="display:block;">
+                                <span class="nested-step">
+                                Y antes de hacer clic en el boton "enviar mensaje" tomar un pantallazo con la informacion diligenciada<br><table class='embedded'><tbody><tr><td>valorEsperado</td></tr><tr><td>Mensaje enviado</td></tr></tbody></table>
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="FAILURE-text">
+
+                                <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=21">
+                                    <img src="a048abd027b1a9dab3e9e6ff3a634017c2b4dfa817977baba303bfa00c710062.png"
+                                         href="a048abd027b1a9dab3e9e6ff3a634017c2b4dfa817977baba303bfa00c710062.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-step">0.51s</span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection0-4" style="display:none; width:100%">
+
+                <tr class="test-FAILURE">
+                    <td width="50" class="step-icon">
+                        <a name="0-4-0"/>
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                Then mensaje enviado question
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="FAILURE-text">
+
+                                <a href="a2c055c62a02e0a6392879ceb9c9a3be1c6389db27a23d3616d9ac08ed110b97_screenshots.html#screenshots?screenshot=21">
+                                    <img src="a048abd027b1a9dab3e9e6ff3a634017c2b4dfa817977baba303bfa00c710062.png"
+                                         href="a048abd027b1a9dab3e9e6ff3a634017c2b4dfa817977baba303bfa00c710062.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-group-step">0.27s</span></td>
+                </tr>
+                    <tr class="test-FAILURE">
                         <td width="40">&nbsp</td>
                         <td width="%" colspan="4" class="error-message-cell">
 
@@ -561,10 +839,10 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.NullPointerException</span>
+                    <span class="error-message error-message-title">java.lang.AssertionError: Expected mensaje enviado question<br>Expected: is &lt;true&gt;<br>     but: was &lt;false&gt;</span>
                 </div>
                 <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-8""
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-17""
                        role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
                 </div>
              </div>
@@ -574,14 +852,14 @@
     <!-- Details Section -->
     <div class="row stacktrace-details">
       <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-8">
+        <div class="collapse multi-collapse" id="stacktraceModal-17">
             <div class="card">
                 <div class="card-header">
-                    <h4>java.lang.NullPointerException </h4>
+                    <h4>java.lang.AssertionError </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>com.co.jbustamante.utilities.Util.CapturaT(Util.java:25)<br />com.co.jbustamante.stepdefinitions.MensajeMakersStep.capturar_el_numero_de_celular_de_servicio_al_cliente(MensajeMakersStep.java:49)<br />✽.capturar el numero de celular de servicio al cliente(src/test/resources/features/mensaje_makers.feature:8)<br /></pre>
+                        <pre>com.co.jbustamante.stepdefinitions.MensajeMakersStep.antes_de_hacer_clic_en_el_boton_enviar_mensaje_tomar_un_pantallazo_con_la_informacion_diligenciada(MensajeMakersStep.java:64)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
                     </div>
 
                 </div>
@@ -590,56 +868,18 @@
     </div>
                         </td>
                     </tr>
-                <tr class="test-SKIPPED">
-                    <td width="50" class="step-icon">
-                        <a name="0-3"/>
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                                <span class="nested-group-step">
-                                Y llenar el formulario "dejanos un mensaje" y en el campo mensaje adjuntar el numero de celular capturado<br><table class='embedded'><thead><th>nombre</th><th>apellido</th><th>correo</th><th>captura</th><th>mensaje</th></thead><tbody><tr><td>Junior</td><td>Bustamante De la Ossa</td><td>correo@gmail.com</td><td></td><td>Estoy interesad0</td></tr></tbody></table>
-                            </span>
-                            <span class="evidence">
-                            </span>
-                        </div>
-                    </td>
-                        <td width="160" class="SKIPPED-text">
-
-                        </td>
-                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-                <tr class="test-SKIPPED">
-                    <td width="50" class="step-icon">
-                        <a name="0-4"/>
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                                <span class="nested-group-step">
-                                Y antes de hacer clic en el boton "enviar mensaje" tomar un pantallazo con la informacion diligenciada<br><table class='embedded'><tbody><tr><td>valorEsperado</td></tr><tr><td>&lt;valorEsperado&gt;</td></tr></tbody></table>
-                            </span>
-                            <span class="evidence">
-                            </span>
-                        </div>
-                    </td>
-                        <td width="160" class="SKIPPED-text">
-
-                        </td>
-                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
 
                         </table>
                     </td>
                 <tr>
-                <tr class="test-ERROR">
+
+                        </table>
+                    </td>
+                <tr>
+                <tr class="test-FAILURE">
                         <td colspan="3"></td>
-                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>17.83s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>FAILURE</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>19s</em></span></td>
                 </tr>
 
             </table>

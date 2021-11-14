@@ -8,5 +8,5 @@ import org.openqa.selenium.By;
 @DefaultUrl("https://somosmakers.co/")
 public class HomePage extends PageObject {
 
-    public static Target BOTON_JOIN = Target.the("Boton Registro Join").located(By.xpath("//*[@id=\"menu-principal\"]/li[5]/a"));
+    public static Target BOTON_CONTACTO = Target.the("Boton").located(By.xpath("//*[@id=\"menu-principal\"]/li[5]/a"));
 }

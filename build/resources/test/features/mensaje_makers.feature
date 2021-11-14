@@ -18,8 +18,8 @@ Característica: Prueba técnica – Automatización
     | <valorEsperado> |
 
     Ejemplos:
-      | nombre | apellido         | correo                  | captura | mensaje |
-      | Junior  | Bustamante De la Ossa | correo@gmail.com |        | Estoy interesad0           |
+      | nombre | apellido         | correo                  | captura | mensaje | valorEsperado |
+      | Junior  | Bustamante De la Ossa | correo@gmail.com |     315369614 | Estoy interesad0           | Mensaje enviado|
 
 
 

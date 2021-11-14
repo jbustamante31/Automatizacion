@@ -1,12 +1,16 @@
-com/co/jbustamante/questions/CapturaTelefono.java
- com.co.jbustamante.questions.CapturaTelefono
+com/co/jbustamante/questions/MensajeEnviadoQuestion.java
+ com.co.jbustamante.questions.MensajeEnviadoQuestion
 com/co/jbustamante/model/DatosRegistro.java
  com.co.jbustamante.model.DatosRegistro
-com/co/jbustamante/exceptions/RegistroException.java
- com.co.jbustamante.exceptions.RegistroException
+com/co/jbustamante/tasks/DiligenciarFormulario.java
+ com.co.jbustamante.tasks.DiligenciarFormulario
 com/co/jbustamante/ui/FormularioRegistroPage.java
  com.co.jbustamante.ui.FormularioRegistroPage
+com/co/jbustamante/utilities/Util.java
+ com.co.jbustamante.utilities.Util
+com/co/jbustamante/tasks/SeleccionarOpcionContacto.java
+ com.co.jbustamante.tasks.SeleccionarOpcionContacto
 com/co/jbustamante/tasks/AbrirNavegador.java
  com.co.jbustamante.tasks.AbrirNavegador
-com/co/jbustamante/questions/RegistroExitosoQuestion.java
- com.co.jbustamante.questions.RegistroExitosoQuestion
+com/co/jbustamante/ui/HomePage.java
+ com.co.jbustamante.ui.HomePage

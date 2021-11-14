@@ -131,7 +131,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-11-2021 18:41</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-11-2021 20:25</span>
     <br style="clear:left"/>
 </div>
 
@@ -166,9 +166,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="error-color">Manejo de selenium
+                                <span class="failing-color">Manejo de selenium
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -195,7 +195,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Null pointer exception</span>
+                    <span class="error-message error-message-title">Assertion error: Expected mensaje enviado questionExpected: is (true) but: was (false)</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
@@ -211,11 +211,11 @@
         <div class="collapse multi-collapse" id="stacktraceModal-overall">
             <div class="card">
                 <div class="card-header">
-                    <h4>java.lang.NullPointerException </h4>
+                    <h4>java.lang.AssertionError </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>com.co.jbustamante.utilities.Util.CapturaT(Util.java:25)<br />com.co.jbustamante.stepdefinitions.MensajeMakersStep.capturar_el_numero_de_celular_de_servicio_al_cliente(MensajeMakersStep.java:49)<br />✽.capturar el numero de celular de servicio al cliente(src/test/resources/features/mensaje_makers.feature:8)<br /></pre>
+                        <pre>com.co.jbustamante.stepdefinitions.MensajeMakersStep.antes_de_hacer_clic_en_el_boton_enviar_mensaje_tomar_un_pantallazo_con_la_informacion_diligenciada(MensajeMakersStep.java:64)<br />✽.antes de hacer clic en el boton "enviar mensaje" tomar un pantallazo con la informacion diligenciada(src/test/resources/features/mensaje_makers.feature:15)<br /></pre>
                     </div>
 
                 </div>
@@ -225,23 +225,39 @@
 
 
                 <div class="panel-body">
-                    <a href="pagesource16216209110371948583.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource11968700240775548741.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png" title=" Example: {nombre=Junior, apellido=Bustamante De la Ossa, correo=correo@gmail.com, captura=, mensaje=Estoy interesad0}" width="1366"/>
-                <img src="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png" title=" Dado la siguiente url &quot;https://somosmakers.co/&quot;" width="1366"/>
-                <img src="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png" title=" &quot;https://somosmakers.co/&quot; abrir navegador" width="1366"/>
-                <img src="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png" title=" &quot;https://somosmakers.co/&quot; opens the Home page" width="1366"/>
-                <img src="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png" title=" &quot;https://somosmakers.co/&quot; abrir navegador (completed)" width="1366"/>
-                <img src="5c2c1e4f95a3afc9d178609881e73b19ba4dba632986266c588b436de0711f43.png" title=" Dado la siguiente url &quot;https://somosmakers.co/&quot; (completed)" width="1366"/>
+                <img src="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png" title=" Example: {nombre=Junior, apellido=Bustamante De la Ossa, correo=correo@gmail.com, captura=315369614, mensaje=Estoy interesad0, valorEsperado=Mensaje enviado}" width="1366"/>
+                <img src="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png" title=" Dado la siguiente url &quot;https://somosmakers.co/&quot;" width="1366"/>
+                <img src="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png" title=" &quot;https://somosmakers.co/&quot; abrir navegador" width="1366"/>
+                <img src="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png" title=" &quot;https://somosmakers.co/&quot; opens the Home page" width="1366"/>
+                <img src="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png" title=" &quot;https://somosmakers.co/&quot; abrir navegador (completed)" width="1366"/>
+                <img src="9142e3c4058416afd8ab4d1699e212ac993bc79ab37f5b326c735f8fe3403399.png" title=" Dado la siguiente url &quot;https://somosmakers.co/&quot; (completed)" width="1366"/>
                 <img src="a38dbf59b278980864813c213402577389138a7996e79e90f6873f5308b8947f.png" title=" Cuando hacemos clic en el enlace de CONTACTO" width="1366"/>
                 <img src="a38dbf59b278980864813c213402577389138a7996e79e90f6873f5308b8947f.png" title=" &quot;https://somosmakers.co/&quot; seleccionar opcion contacto" width="1366"/>
-                <img src="a38dbf59b278980864813c213402577389138a7996e79e90f6873f5308b8947f.png" title=" &quot;https://somosmakers.co/&quot; clicks on Boton Registro Join" width="1366"/>
+                <img src="a38dbf59b278980864813c213402577389138a7996e79e90f6873f5308b8947f.png" title=" &quot;https://somosmakers.co/&quot; clicks on Boton" width="1366"/>
                 <img src="a38dbf59b278980864813c213402577389138a7996e79e90f6873f5308b8947f.png" title=" &quot;https://somosmakers.co/&quot; seleccionar opcion contacto (completed)" width="1366"/>
                 <img src="a38dbf59b278980864813c213402577389138a7996e79e90f6873f5308b8947f.png" title=" Cuando hacemos clic en el enlace de CONTACTO (completed)" width="1366"/>
-                <img src="f97765e1915ad942cb6c9a9a041c4bd6a6b14c6afe84f633f5ed634d8ebf4551.png" title=" Entonces capturar el numero de celular de servicio al cliente: <span class='error-color'>ERROR</span>" width="1366"/>
+                <img src="a38dbf59b278980864813c213402577389138a7996e79e90f6873f5308b8947f.png" title=" Entonces capturar el numero de celular de servicio al cliente" width="1366"/>
+                <img src="90bb3a03d963b6f95f12b705f9a02428fa08afe7d99da74a9b5e8457624847ae.png" title=" Y llenar el formulario &quot;dejanos un mensaje&quot; y en el campo mensaje adjuntar el numero de celular capturado
+| nombre | apellido | correo | captura | mensaje |
+| Junior | Bustamante De la Ossa | correo@gmail.com | 315369614 | Estoy interesad0 |" width="1366"/>
+                <img src="90bb3a03d963b6f95f12b705f9a02428fa08afe7d99da74a9b5e8457624847ae.png" title=" &quot;https://somosmakers.co/&quot; enters 'Junior' into Input Name " width="1366"/>
+                <img src="3be1a5ee8afa97c635c354aad3e65853878f5cae62b2ea8a9fe252832780f3cc.png" title=" &quot;https://somosmakers.co/&quot; enters 'Bustamante De la Ossa' into Input Last Name " width="1366"/>
+                <img src="dba62069269ce94102e3212c3a3d15c078cc8af8cf567a958ddae073ede3eb2f.png" title=" &quot;https://somosmakers.co/&quot; enters '5412correo@gmail.com' into Input Email " width="1366"/>
+                <img src="19103f5a797e4d82321d678ce0bfff0a85958f6ac8409ca4eedf6704a9b44d52.png" title=" &quot;https://somosmakers.co/&quot; enters '315369614' into Input Phone " width="1366"/>
+                <img src="bd56032d14e68522ae164754a7c450d64973822c86f1593f154a76d094e463b1.png" title=" &quot;https://somosmakers.co/&quot; enters 'Estoy interesad0' into Input Message " width="1366"/>
+                <img src="b1fac51773ee7c6696031e30ff5af3fd5aa9f3e897687862918ef2ff4f410e72.png" title=" &quot;https://somosmakers.co/&quot; clicks on Button Send Message" width="1366"/>
+                <img src="b1fac51773ee7c6696031e30ff5af3fd5aa9f3e897687862918ef2ff4f410e72.png" title=" Y llenar el formulario &quot;dejanos un mensaje&quot; y en el campo mensaje adjuntar el numero de celular capturado
+| nombre | apellido | correo | captura | mensaje |
+| Junior | Bustamante De la Ossa | correo@gmail.com | 315369614 | Estoy interesad0 | (completed)" width="1366"/>
+                <img src="a048abd027b1a9dab3e9e6ff3a634017c2b4dfa817977baba303bfa00c710062.png" title=" Y antes de hacer clic en el boton &quot;enviar mensaje&quot; tomar un pantallazo con la informacion diligenciada
+| valorEsperado |
+| Mensaje enviado |" width="1366"/>
+                <img src="a048abd027b1a9dab3e9e6ff3a634017c2b4dfa817977baba303bfa00c710062.png" title=" Then mensaje enviado question: <span class='failing-color'>FAILURE</span>" width="1366"/>
             </div>
         </div>
 

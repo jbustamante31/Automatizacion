@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Prueba técnica – Automatización" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-11-13T23:41:08" hostname="LAPTOP-341DQTER" time="17.849">
+<testsuite name="Prueba técnica – Automatización" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-11-14T01:25:16" hostname="LAPTOP-341DQTER" time="18.965">
   <properties/>
-  <testcase name="Manejo de selenium" classname="Prueba técnica – Automatización" time="17.849">
-    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at net.serenitybdd.screenplay.abilities.BrowseTheWeb.as(BrowseTheWeb.java:41)
-	at net.serenitybdd.screenplay.targets.XPathOrCssTarget.resolveFor(XPathOrCssTarget.java:21)
-	at com.co.jbustamante.utilities.Util.CapturaT(Util.java:25)
-	at com.co.jbustamante.stepdefinitions.MensajeMakersStep.capturar_el_numero_de_celular_de_servicio_al_cliente(MensajeMakersStep.java:49)
-	at ✽.capturar el numero de celular de servicio al cliente(src/test/resources/features/mensaje_makers.feature:8)
+  <testcase name="Manejo de selenium" classname="Prueba técnica – Automatización" time="18.965">
+    <failure message="java.lang.AssertionError: Expected mensaje enviado question&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected mensaje enviado question
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
+	at com.co.jbustamante.stepdefinitions.MensajeMakersStep.antes_de_hacer_clic_en_el_boton_enviar_mensaje_tomar_un_pantallazo_con_la_informacion_diligenciada(MensajeMakersStep.java:64)
+	at ✽.antes de hacer clic en el boton &quot;enviar mensaje&quot; tomar un pantallazo con la informacion diligenciada(src/test/resources/features/mensaje_makers.feature:15)
 </failure>
   </testcase>
   <system-out><![CDATA[normal
 ]]></system-out>
-  <system-err><![CDATA[nov. 13, 2021 6:41:08 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[nov. 13, 2021 8:25:17 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 5533
+Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 42255
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-nov. 13, 2021 6:41:17 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 13, 2021 8:25:24 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
